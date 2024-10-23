@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets.onecompiler.app/42vpgku7v/42vpgbg9e/IMG-20241022-WA0015.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+}
+
+#app:hover {
+    transform: scale(1.02);
+}
+
+.language-selector select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.converter input,
+.converter select,
+.converter button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.converter button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.converter button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
